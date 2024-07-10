@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(233, 221, 245);
+}
+.form-container {
+    width: 700px;
+    margin: 0 auto;
+    background-color:rgb(247, 247, 248);
+}
+
+.label{
+    width: 300px;
+    height: 100px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+.btn{
+    background-color:white;
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid rebeccapurple;
+}
+.btn:hover{
+    background-color:rebeccapurple;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
