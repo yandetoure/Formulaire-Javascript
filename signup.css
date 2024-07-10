@@ -1,15 +1,8 @@
 body{
-    background-color:rgb(233, 221, 245);
+    background-color:rgb(221, 2, 2, 0.1);
 }
-.form-container {
-    width: 700px;
-    margin: 0 auto;
-    background-color:rgb(247, 247, 248);
-}
-
-.label{
-    width: 300px;
-    height: 100px;
+.card-body{
+    background-color:rgb(255, 255, 255);
 }
 
 .error-message {
@@ -17,14 +10,16 @@ body{
     font-size: 12px;
 }
 .btn{
+    margin-top: 10px;
     background-color:white;
-    color: rebeccapurple;
+    color: rgb(189, 21, 21);
     font-weight: bold;
     font-size: 20px;
-    border: 2px solid rebeccapurple;
+    border: 2px solid rgb(189, 21, 21);
 }
 .btn:hover{
-    background-color:rebeccapurple;
+    margin-top: 10px;
+    background-color:rgb(189, 21, 21);
     color: white;
     font-weight: bold;
     font-size: 20px;
